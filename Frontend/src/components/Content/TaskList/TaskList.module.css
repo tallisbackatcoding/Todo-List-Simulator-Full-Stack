@@ -1,0 +1,44 @@
+.todoItemBox{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+    display: inline-block;
+    width: 80%;  
+}
+
+.todoItem{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.customCheckbox{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+.deleteIcon{
+    float: right;
+    zoom: 1.5;
+    display: none;
+}
+.deleteIcon:hover{
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+
+.todoItemBox:hover  .deleteIcon{
+    display: inline;
+}

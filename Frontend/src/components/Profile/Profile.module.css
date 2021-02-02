@@ -1,0 +1,16 @@
+.profile{
+    text-align: center;
+}
+
+img{
+    border-radius:100%;
+}
+
+.username{
+    font-size: 25px;
+}
+
+.changeProfile:hover{
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.Admin{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.userTable{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 600px;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+.userTable thead th{
+    background-color: #5D6D7E;
+    color: white;
+    font-weight: bold;
+}
+
+.userTable th, .userTable td{
+    padding: 5px 15px
+}
+
+.userTable tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.userTable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.userTable tbody tr:last-of-type{
+    border-bottom: 2px solid #5D6D7E;
+} 

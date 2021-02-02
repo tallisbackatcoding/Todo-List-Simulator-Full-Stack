@@ -1,0 +1,11 @@
+.login{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.loginBox{
+    border: 1px solid black;
+    width: 400px;
+    padding: 50px;
+}

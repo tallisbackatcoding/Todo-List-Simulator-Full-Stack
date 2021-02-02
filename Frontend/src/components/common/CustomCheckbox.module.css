@@ -1,0 +1,41 @@
+
+
+.label {
+}
+
+.checkbox {
+  display: none;
+}
+
+.fake {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  background-color: white;
+}
+
+.fake:before {
+  content: "✓";
+  font-size: 1.4em;
+  font-weight: 800;
+  position: absolute;
+  display: block;
+  width: 15px;
+  height: 15px;
+  padding-left: 6px;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.fake:hover:hover{
+  cursor: pointer;
+}
+
+.fake:hover::before{
+  opacity: .5;
+}
+
+.checkbox:checked + .fake::before {
+  opacity: 1;
+} 

@@ -1,0 +1,10 @@
+.Content{
+    text-align: center;
+    border: 1px solid black;
+    /* border-top: none; */
+    width: 35%;
+    margin: auto;
+    background-color:#5D6D7E;
+    align-items: center;
+    border-radius: 1%;
+}

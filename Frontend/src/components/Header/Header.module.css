@@ -1,0 +1,61 @@
+.Header{
+    background-color: #5D6D7E;
+    height: 60px;
+    width: 100%;
+    display: table;
+    justify-content: space-between;
+}
+
+.textLogo{
+    font-size: 25px;
+    font-weight: 500;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    text-decoration: none;
+    width: 20vw;
+}
+
+.dropdownWrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.UserBox{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button{
+    background-color: #666D74 !important;
+    box-shadow: none !important;
+    border-color: white !important; 
+}
+
+.Button:hover{
+    background-color: black !important;
+}   
+
+.dropdown{
+    float: right !important;
+    margin-right: 15px;
+}
+
+.divButton{
+    cursor: pointer;
+}
+
+.divButton:hover{
+    color: blue;
+}
+
+.dropdownItem{
+    padding-left: 10%;
+}
+
+.dropdownItem .divButton{
+    padding-left: 10%;
+    cursor: pointer;
+}
