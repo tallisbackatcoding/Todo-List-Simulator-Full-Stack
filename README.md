@@ -7,6 +7,7 @@
 - User Profile changing
 - Admin Page manipulation
 - Add todo, mark complete todo, delete todo
+- Restricted number of requests in 1 minute to 40 using Token Bucket
 
 ![1](todo1.jpg?raw=true "d1")
 ![2](todo2.jpg?raw=true "d1")
